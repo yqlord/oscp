@@ -1,0 +1,11 @@
+OSCP experience:
+
+https://ch1kpee.com/tag/oscp/
+
+Taking the Course
+
+Once you’re in, start watching the videos and working through the lab guide.  Do all the exercises and write the answers done (it’s good for extra credit on your exam).  Once you’ve powered through that, it’s time to start powering through the labs.
+
+The lab guide and videos will show you a lot of the things you need to know to get up and running.  If you feel really lost, the forums have a great official thread walking you through pentesting the “alpha” host and will be adding walkthroughs of “beta” and “gamma” in the future.  The real point of the lab, however, is for you to figure things out yourself and find a way to compromise each host.
+
+During my lab time, I was able to compromise almost all of the hosts on the public network, including Pain and Humble, two of the supposedly “hardest” VMs on the network.  I had footholds into the Dev and IT networks, but didn’t have much lab time left to delve further into them.  Plus, pivoting into these networks is slooooooooooow (as in real-life pivoting) and it’s really frustrating to have your pivot machine reset by some asshole while you’re right in the middle of hacking a host in the deeper network.
