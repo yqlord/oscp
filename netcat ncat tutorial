@@ -1,0 +1,19 @@
+http://www.binarytides.com/netcat-tutorial-for-beginners/
+
+6. Reverse Shells
+
+This is the most powerful feature of netcat for which it is most used by hackers. Netcat is used in almost all reverse shell techniques to catch the reverse connection of shell program from a hacked system.
+
+Reverse telnet
+
+First lets take an example of a simple reverse telnet connection. In ordinate telnet connection the client connects to the server to start a communication channel.
+
+Your system runs (# telnet server port_number)  =============> Server
+Now using the above technique you can connect to say port 80 of the server to fetch a webpage. However a hacker is interested in getting a command shell. Its the command prompt of windows or the terminal of linux. The command shell gives ultimate control of the remote system. Now there is no service running on the remote server to which you can connect and get a command shell.
+
+So when a hacker hacks into a system, he needs to get a command shell. Since its not possible directly, the solution is to use a reverse shell. In a reverse shell the server initiates a connection to the hacker's machine and gives a command shell.
+
+Step 1 : Hacker machine (waiting for incoming connection)
+Step 2 : Server ==============> Hacker machine
+To wait for incoming connections, a local socket listener has to be opened. Netcat/ncat can do this.
+First a netcat server has to be started on local machine or the hacker's machine.
