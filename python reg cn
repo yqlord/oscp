@@ -1,3 +1,8 @@
+http://blog.csdn.net/gatieme/article/details/45648167
+Python程序在Windows终端乱码解决方法
+
+
+
 4E00～9FFFh：中日韩认同表意文字区，总计收容20,902个中日韩汉字。
 
 需要注意的是论坛里说的^[\u4E00-\u9FA5]+$这是专门用于匹配简体中文的正则表达式, 实际上繁体字也在里面
